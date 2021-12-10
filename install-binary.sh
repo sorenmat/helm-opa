@@ -5,7 +5,7 @@
 PROJECT_NAME="helm-opa"
 PROJECT_GH="eicnix/$PROJECT_NAME"
 
-: ${HELM_PLUGIN_PATH:="$(helm home)/plugins/helm-template"}
+: ${HELM_PLUGIN_PATH:="$(helm home)/plugins/helm-opa"}
 
 # Convert the HELM_PLUGIN_PATH to unix if cygpath is
 # available. This is the case when using MSYS2 or Cygwin
